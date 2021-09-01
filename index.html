@@ -1,23 +1,311 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <script src="https://use.fontawesome.com/510e100cb0.js"></script>
-    <title>
-        <%= htmlWebpackPlugin.options.title %>
-    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Maket</title>
 </head>
 
 <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__top">
+                    <div class="logo__img">
+                        <a class="logo__img-link" href="">
+                            <img src="" alt="logo">
+                        </a>
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="nav__list">
+                            <li class="list__item"><a href="">Контакты</a></li>
+                            <li class="list__item"><a href="">Кейсы</a></li>
+                            <li class="list__item"><a href="">Услуги</a></li>
+                            <li class="list__item"><a href="">Цены</a></li>
+                        </ul>
+                    </nav>
+                    <a class="tel" href="tel:+74999554833">+7 499 955-48-33</a>
+                    <div class="burger__menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="header__main">
+                    <div class="header__main-img">
+                        <img src="" alt="photo">
+                    </div>
+                    <div class="header__main-content">
+                        <h1 class="header__main-title">
+                            Получите лицензию <span>с гарантией результата по договору</span> и легализуйте свой бизнес
+                        </h1>
+                        <p class="header__main-text">
+                            Помощь в оформлении лицензий от 45 дней с полным сопровождением: от создания концепции до открытия бизнеса
+                        </p>
+                        <button class="header__main-btn">Оставить заявку</button>
+                        <p class="header__main-description">
+                            <span>Получите скидку 10%</span> и чек-лист, как <span>сэкономить на открытии</span> своего бизнеса
+                        </p>
+                        <div class="header__main-imgsm">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <p class="header__main-subtext">Карина Гаврилова <span>руководитель центра Гарант</span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="benefits">
+                <div class="benefits__content">
+                    <div class="benefits__content-item">
+                        <span>1</span>
+                        <p>
+                            Легальность и абсолютная чистота в документах
+                        </p>
+                    </div>
+                    <div class="benefits__content-item">
+                        <span>2</span>
+                        <p>
+                            Комплексно: подбираем оборудование, помещение и персонал
+                        </p>
+                    </div>
+                    <div class="benefits__content-item">
+                        <span>3</span>
+                        <p>
+                            Получили 78 лицензий за 8 лет
+                        </p>
+                    </div>
+                    <div class="benefits__content-item">
+                        <span>4</span>
+                        <p>
+                            Проконсультировали более 200 предпринимателей
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="assist">
+                <h2 class="assist__title">
+                    Юридический центр «Гарант» помогает закрыть актуальные вопросы и <span>снять груз проблем</span>
+                </h2>
+
+                <div class="assist__items">
+                    <div class="assist__items-left">
+                        <div class="assist__item">
+                            <img src="" alt="">
+                            <p>Рискуете получить отказ лицензирующих органов</p>
+                        </div>
+                        <div class="assist__item">
+                            <img src="" alt="">
+                            <p>Планируете вести собственное дело, но не знаете, с чего начать</p>
+                        </div>
+                        <div class="assist__item">
+                            <img src="" alt="">
+                            <p>Не понимаете, сколько денег потребуется на открытие бизнеса</p>
+                        </div>
+                        <div class="assist__item">
+                            <img src="" alt="">
+                            <p>Хотите запустить рекламу в сервисах Google Ads или Яндекс.Директ, но необходимо предоставить лицензию</p>
+                        </div>
+                    </div>
+                    <div class="assist__img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="assist__items-right">
+                        <div class="assist__item">
+                            <img src="" alt="">
+                            <p>Вы предприниматель и хотите открыть бизнес</p>
+                        </div>
+                        <div class="assist__item">
+                            <img src="" alt="">
+                            <p>Хотите оградить компанию от недобросовестного поведения потребителей</p>
+                        </div>
+                        <div class="assist__item">
+                            <img src="" alt="">
+                            <p>Планируете участвовать в тендерах, но для этого требуется лицензия</p>
+                        </div>
+                        <div class="assist__item">
+                            <img src="" alt="">
+                            <p>Хотите легализовать деятельность, чтобы избежать ответственности и конфискации имущества</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="license">
+                <h2 class="license__title">
+                    <span>8 лицензий,</span> которые оформляет наш Юридический центр
+                </h2>
+                <p class="license__subtitle">
+                    узнайте о сроках, стоимости, перечне документов и этапах работы для каждой из лицензий
+                </p>
+
+                <div class="license__items">
+                    <div class="license__item">
+                        <span>01</span>
+                        <p>Медицинская лицензия</p>
+                    </div>
+                    <div class="license__item">
+                        <span>02</span>
+                        <p>Алкогольная лицензия</p>
+                    </div>
+                    <div class="license__item">
+                        <span>03</span>
+                        <p>Оптовая фармацевтическая лицензия</p>
+                    </div>
+                    <div class="license__item">
+                        <span>04</span>
+                        <p>Фармацевтическая лицензия</p>
+                    </div>
+                    <div class="license__item">
+                        <span>05</span>
+                        <p>Образовательная лицензия</p>
+                    </div>
+                    <div class="license__item">
+                        <span>06</span>
+                        <p>Оптовая алкогольная лицензия</p>
+                    </div>
+                    <div class="license__item">
+                        <span>07</span>
+                        <p>Лицензия на обращение с опасными отходами</p>
+                    </div>
+                    <div class="license__item">
+                        <span>08</span>
+                        <p>Лицензия МЧС</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="questions">
+                <div class="questions__inner">
+                    <h2 class="questions__title">Ответьте на 2-4 вопроса и получите <span>рассчёт стоимости и гарантии</span> на Вашу услугу</h2>
+                    <p class="questions__subtitle">Мы перезвоним вам в течение ОДНОГО рабочего дня</p>
+
+                    <div class="questions__blocks">
+                        <div class="question__block">
+                            <div class="question__top">
+                                <p class="question__number"><span>01</span>/04</p>
+                                <h3 class="question__title">Какой бизнес Вы планируете открыть?</h3>
+                            </div>
+
+                            <div class="question__items">
+                                <div class="question__items-left">
+                                    <div class="question__item">
+                                        <input id="q1" name="q1" class="question__input" type="radio">
+                                        <label for="q1">Медицинская</label>
+                                    </div>
+                                    <div class="question__item">
+                                        <input id="q2" name="q2" class="question__input" type="radio">
+                                        <label for="q2">Фармацевтическая</label>
+                                    </div>
+                                    <div class="question__item">
+                                        <input id="q3" name="q3" class="question__input" type="radio">
+                                        <label for="q3">Алкогольная</label>
+                                    </div>
+                                </div>
+                                <div class="question__items-right">
+                                    <div class="question__item">
+                                        <input id="q4" name="q4" class="question__input" type="radio">
+                                        <label for="q4">Обрзовательная</label>
+                                    </div>
+                                    <div class="question__item">
+                                        <input id="q5" name="q5" class="question__input" type="radio">
+                                        <label for="q5">Обращение с опасными отходами</label>
+                                    </div>
+                                    <div class="question__item">
+                                        <input id="q6" name="q6" class="question__input" type="radio">
+                                        <label for="q6">Другое</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="question__block-btn">Далее</button>
+                        </div>
+                        <div class="question__btn-box">
+                            <button class="question__btn">Получите скидку 10%</button>
+                            <button class="question__btn">пошаговый алгоритм получения лицензии</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="download">
+                <div class="download__left">
+                    <h2 class="download__title">
+                        Сделайте <span>первый шаг</span> к оформлению лицензии, даже если Вы ещё только планируете открывать своё дело
+                    </h2>
+                    <p class="download__subtitle">Изучите наши дополнительные файлы. Узнайте о главных требованиях для получения лицензии, а также о способах экономии без ущерба качеству на старте</p>
+
+                    <div class="download__items">
+                        <div class="download__item">
+                            <h4 class="download__item-title">
+                                «Как сэкономить на открытии бизнеса»
+                            </h4>
+                            <a class="download__btn-link" href="">изучить <span>файл</span></a>
+                            <p class="download__item-info">Он займет 2.3 мб</p>
+                        </div>
+                        <div class="download__item">
+                            <h4 class="download__item-title">
+                                «Общие лицензионные требования для каждой из ниш»
+                            </h4>
+                            <a class="download__btn-link" href="">изучить <span>чек-лист</span></a>
+                            <p class="download__item-info">Он займет 4.1 мб</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="download__right">
+                    <div class="download__img">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section class="reviews">
+                <h2 class="reviews__title">
+                    Отзывы и примеры готовых проектов
+                </h2>
+                <div class="reviews__content">
+                    <div class="reviews__left">
+                        <div class="reviews__user">
+                            <div class="user__avatar">
+                                <img src="" alt="">
+                            </div>
+                            <div class="user__data">
+                                <p class="user__name">Имя Фамилия</p>
+                                <p class="user__work">Место и должность работы</p>
+                            </div>
+                        </div>
+                        <p class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor
+                            mauris molestie elit, et lacinia ipsum
+                            <br><br> Quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sitamet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales
+                            nec vulputate justo hendrerit Vivamus varius pretium ligula</p>
+                        <div class="reviews__numbers">
+                            <img id="poligon__left" class="poligon__arrow" src="/img/Polygon.png" alt="">
+                            <img id="poligon__right" class="poligon__arrow" src="/img/Polygon.png" alt="">
+                            <p class="reviews__number">01</p>
+                            <p class="reviews__number">/05</p>
+                        </div>
+                    </div>
+
+                    <div class="reviews__right">
+                        <div class="reviews__img">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
 </body>
 
 </html>
